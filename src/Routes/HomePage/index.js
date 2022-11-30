@@ -49,7 +49,7 @@ const HomePage = () => {
               <StackItem>
                 <Button
                   onClick={() => {
-                    analytics.track('rhoda-get-started-click', {});
+                    analytics.track('rhoda-get-started-click');
                   }}
                   iconPosition="right"
                   icon={<ExternalLinkAltIcon />}
@@ -87,7 +87,7 @@ const HomePage = () => {
                   <StackItem>
                     <Button
                       onClick={() => {
-                        analytics.track('rhoda-video-1-click', {});
+                        analytics.track('rhoda-video-1-click');
                       }}
                       iconPosition="right"
                       icon={<ExternalLinkAltIcon />}
@@ -131,7 +131,7 @@ const HomePage = () => {
                   <StackItem>
                     <Button
                       onClick={() => {
-                        analytics.track('rhoda-video-2-click', {});
+                        analytics.track('rhoda-video-2-click');
                       }}
                       iconPosition="right"
                       icon={<ExternalLinkAltIcon />}
